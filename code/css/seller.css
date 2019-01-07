@@ -1,0 +1,97 @@
+body {
+    background: url(../background.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+label {
+    margin-bottom:10px;
+}
+input {
+    padding:10px;
+    float: 
+    width: 50%;
+    margin-bottom: 1em;
+}
+button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+h2{
+    margin-top: 20px;
+    float: left;
+    clear: left;
+}
+
+
+#as_seller {
+    margin-top: 40px;
+    float: left;
+    clear: left;
+}
+
+
+
+
+#buyer_search_ {
+    float: left;
+    clear: left;
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#search_food_index_ {
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}
+
+
+#search_trans_index_{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}
+
+#search_store_{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}
+
+#finish_trans_{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}
+#buy_food_{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}
+#send_food_as_seller{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+#remove_food_as_seller, #get_trans_count_as_seller, #finish_trans_as_seller{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}
+#search_trans_as_seller{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+}

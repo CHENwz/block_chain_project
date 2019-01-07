@@ -1,0 +1,79 @@
+body {
+    background: url(../background.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+label {
+    margin-bottom:10px;
+}
+input {
+    padding:10px;
+    float: 
+    width: 50%;
+    margin-bottom: 1em;
+}
+button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+
+
+
+#second_row {
+    margin-top: 40px;
+    float: left;
+    clear: left;
+}
+
+#register {
+    padding: 20px;
+    float: left;
+    background-color: #f0f0f0;
+}
+
+
+
+#buyer_search {
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}
+
+#search_food_index {
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}
+
+
+#search_trans_index{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}
+
+#search_store{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}
+
+#finish_trans{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+#buy_food{
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>seller</title>
+    <link rel="stylesheet" type="text/css" href="../css/seller.css">
+     <script src="../web3/jquery-3.2.1.js"></script>
+     <script src="../web3/web3.min.js"></script>
+    <script src="../web3/Myweb3.js"></script>
+</head>
+
+
+<body>
+    <h1>This is a seller</h1>
+    <h2>As a buyer</h2>
+    <div id="as_buyer">
+        <div id="buyer_search_">
+            <div id="get_all_food_count_">
+                <button id="search_all_food_count_">查询食品总数</button>
+                <label id="all_food_count_">foods:null</label>
+            </div>
+
+            <div id="get_my_trans_count">
+                <button id="search_my_trans_count_">查询我的交易数</button>
+                <label id="my_trans_count_">my trans:null</label>
+            </div>
+        </div>
+
+        <div id="search_food_index_">
+            <input type="text" id="food_index_" placeholder="Input food's index" >
+            <button id="search_my_trans_index_">查询食品</button>
+            <div>
+                <label id="store_name1_">店名:null</label>
+            </div>
+            <div>
+                <label id="food_name1_">食物名:null</label>
+            </div>
+            <div>
+                <label id="food_detail_">食物介绍:null</label>
+            </div>
+            <div>
+                <label id="food_value1_">食物价格:null</label>
+            </div>
+            <div>
+                <label id="seller_addre1_">卖家账户:null</label>
+            </div>
+            
+        </div>
+
+        <div id="search_trans_index_">
+            <input type="text" id="trans_index_" placeholder="Input trans's index" >
+            <button id="search_my_trans_count_">查询订单</button>
+            <div>
+                <label id="store_name2_">店名:null</label>
+            </div>
+            <div>
+                <label id="food_name2_">食物名:null</label>
+            </div>
+            <div>
+                <label id="food_value2_">食物价格:null</label>
+            </div>
+            <div>
+                <label id="when_by2_">购买时间:null</label>
+            </div>
+            <div>
+                <label id="trading_addr2_">送货地址:null</label>
+            </div>
+        </div>
+
+        <div id="search_store_">
+            <input type="text" id="search_store_name_" placeholder="Input store's name" >
+            <button id="search_my_trans_count_">查询店家</button>
+            <div>
+                <label id="store_name3_">店名:null</label>
+            </div>
+            <div>
+                <label id="store_location_">店地址:null</label>
+            </div>
+            <div>
+                <label id="store_phone_">电话号码:null</label>
+            </div>
+            <div>
+                <label id="seller_addr_">店家账号:null</label>
+            </div>
+            <div>
+                <label id="store_score_">信誉值:null</label>
+            </div>
+        </div>
+
+        <div id="finish_trans_">
+            <div>
+                <input id="finish_trans_when_by_" type="text" placeholder="when buy">
+            </div>
+            <div>
+                <input id="finish_trans_score_" type="text" placeholder="Input score">
+            </div>
+            <div>
+                <button id="finish_">完成此次交易</button>
+                <label id="finish_result_">结果:null</label>
+            </div>
+        </div>
+        <div id="buy_food_">
+            <div>
+                <input type="text" id="store_name4_" placeholder="Input the store name">
+            </div>
+            <div>
+                <input type="text" id="food_name4_" placeholder="Input the food name">
+            </div>
+            <div>
+                <input type="text" id="trans_location_" placeholder="Input your loaction">
+            </div>
+            <div>
+                <button id="buy_">购买食物</button>
+            </div>
+            <div>
+                <label id="buy_result_">结果:null</label>
+            </div>
+        </div>
+
+    </div>
+
+    <h2>As a seller</h2>
+    <div id="as_seller">
+        <div id="send_food_as_seller">
+            <div>
+                <input type="text" id="food_name_as_seller" placeholder="Input the food name">
+            </div>
+            <div>
+                <input type="text" id="food_detail_as_seller" placeholder="Input the food detail">
+            </div>
+            <div>
+                <input type="text" id="food_value_as_seller" placeholder="Input the food value">
+            </div>
+            <div>
+                <button id="send_as_seller">发布食物</button>
+            </div>
+            <div>
+                <label id="send_result_as_seller">结果:null</label>
+            </div>
+        </div>
+        <div id="remove_food_as_seller">
+            <div>
+                <input type="text" id="store_name_as_seller2" placeholder="Input the store name">
+            </div>
+            <div>
+                <input type="text" id="food_name_as_seller2" placeholder="Input the food name">
+            </div>
+            <div>
+                <button id="remove_as_seller">删除食物</button>
+            </div>
+            <div>
+                <label id="remove_result_as_seller">结果:null</label>
+            </div>
+        </div>
+        <div id="get_trans_count_as_seller">
+            <button id="search_my_trans_count_as_seller">查询订单数</button>
+            <label id="my_trans_count_as_seller">my trans:null</label>
+        </div>
+        <div id="search_trans_as_seller">
+            <input type="text" id="trans_index_as_seller" placeholder="Input trans's index" >
+            <button id="search_my_trans_count_as_seller">查询订单</button>
+            <div>
+                <label id="buyer_addre_as_seller">买家账号:null</label>
+            </div>
+            <div>
+                <label id="food_name2_as_seller">食物名:null</label>
+            </div>
+            <div>
+                <label id="food_value2_as_seller">食物价格:null</label>
+            </div>
+            <div>
+                <label id="when_by2_as_seller">购买时间:null</label>
+            </div>
+            <div>
+                <label id="trading_addr2_seller">送货地址:null</label>
+            </div>
+        </div>
+        <div id="finish_trans_as_seller">
+            <div>
+                <input id="buyer_addr2_by_seller" type="text" placeholder="Input buyer address">
+            </div>
+            <div>
+                <input id="when_by_as_seller" type="text" placeholder="when by">
+            </div>
+            <div>
+                <button id="finish_as_seller">完成此次交易</button>
+                <label id="finish_result_as_seller">结果:null</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>buyer</title>
+    <link rel="stylesheet" type="text/css" href="../css/buyer.css">
+     <script src="../web3/jquery-3.2.1.js"></script>
+     <script src="../web3/web3.min.js"></script>
+    <script type="text/javascript" src="../web3/Myweb3.js"></script>
+</head>
+
+
+<body>
+    <h1>This is a buyer</h1>
+    <div id="first_row">
+        <div id="register">
+            <div>
+                <input type="text" id="register_store_name" placeholder="Input your store name">
+            </div>
+            <div>
+                <input type="text" id="register_store_location" placeholder="Input your store location">
+            </div>
+            <div>
+                <input type="text" id="register_phone" placeholder="Input your phone">
+            </div>
+            <div>
+                <input type="text" id="register_permit" placeholder="Input your store permit">
+            </div>
+            <div>
+                <button id="register_btn">注册成卖家</button>
+                <label id="register_result">注册结果:null</label>
+            </div>
+        </div>
+
+        <div id="buyer_search">
+            <div id="get_all_food_count">
+                <button id="search_all_food_count">查询食品总数</button>
+                <label id="all_food_count">foods:null</label>
+            </div>
+
+            <div id="get_my_trans_count">
+                <button id="search_my_trans_count">查询我的交易数</button>
+                <label id="my_trans_count">my trans:null</label>
+            </div>
+        </div>
+
+        <div id="search_food_index">
+            <input type="text" id="food_index" placeholder="Input food's index" >
+            <button id="search_my_trans_index">查询食品</button>
+            <div>
+                <label id="store_name1">店名:null</label>
+            </div>
+            <div>
+                <label id="food_name1">食物名:null</label>
+            </div>
+            <div>
+                <label id="food_detail">食物介绍:null</label>
+            </div>
+            <div>
+                <label id="food_value1">食物价格:null</label>
+            </div>
+            <div>
+                <label id="seller_addre1">卖家账户:null</label>
+            </div>
+            
+        </div>
+
+        <div id="search_trans_index">
+            <input type="text" id="trans_index" placeholder="Input trans's index" >
+            <button id="search_my_trans_count">查询订单</button>
+            <div>
+                <label id="store_name2">店名:null</label>
+            </div>
+            <div>
+                <label id="food_name2">食物名:null</label>
+            </div>
+            <div>
+                <label id="food_value2">食物价格:null</label>
+            </div>
+            <div>
+                <label id="when_by2">购买时间:null</label>
+            </div>
+            <div>
+                <label id="trading_addr2">送货地址:null</label>
+            </div>
+        </div>
+
+        <div id="search_store">
+            <input type="text" id="search_store_name" placeholder="Input store's name" >
+            <button id="search_my_trans_count">查询店家</button>
+            <div>
+                <label id="store_name3">店名:null</label>
+            </div>
+            <div>
+                <label id="store_location">店地址:null</label>
+            </div>
+            <div>
+                <label id="store_phone">电话号码:null</label>
+            </div>
+            <div>
+                <label id="seller_addr">店家账号:null</label>
+            </div>
+            <div>
+                <label id="store_score">信誉值:null</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="second_row">
+        <div id="finish_trans">
+            <div>
+                <input id="finish_trans_when_by" type="text" placeholder="when buy">
+            </div>
+            <div>
+                <input id="finish_trans_score" type="text" placeholder="Input score">
+            </div>
+            <div>
+                <button id="finish">完成此处交易</button>
+                <label id="finish_result">结果:null</label>
+            </div>
+        </div>
+        <div id="buy_food">
+            <div>
+                <input type="text" id="store_name4" placeholder="Input the store name">
+            </div>
+            <div>
+                <input type="text" id="food_name4" placeholder="Input the food name">
+            </div>
+            <div>
+                <input type="text" id="trans_location" placeholder="Input your loaction">
+            </div>
+            <div>
+                <button id="buy">购买食物</button>
+            </div>
+            <div>
+                <label id="buy_result">结果:null</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
